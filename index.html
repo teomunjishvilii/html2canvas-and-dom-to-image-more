@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html2canvas-and-dom-to-image-more Libraries</title>
+
+    <!-- html2canvas link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <!-- dom-to-image-more link -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/dom-to-image-more@2.9.0/dist/dom-to-image-more.min.js"></script> -->
+
+    <script>
+      // Check if the library is loaded
+      console.log(typeof domtoimage); // Should log "object" if loaded correctly
+    </script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- html2canvas introduction -->
+
+    <div class="intro">
+      <h2>html2canvas</h2>
+      <h4>Key Features:</h4>
+      <ul>
+        <li>Captures individual HTML elements or entire webpages.</li>
+        <li>Supports a variety of styles, including CSS3.</li>
+        <li>Produces a canvas element that can be converted to an image.</li>
+      </ul>
+    </div>
+
+    <!-- html2canvas example -->
+
+    <div id="capture">
+      <h2>Hello World!</h2>
+      <p>This is a test for html2canvas.</p>
+    </div>
+
+    <button id="captureButton">Capture</button>
+
+    <!-- dom-to-image-more introduction -->
+
+    <div class="intro">
+      <h2>dom-to-image-more</h2>
+      <h4>Key Features:</h4>
+      <ul>
+        <li>Generates images in PNG, JPEG, and SVG formats.</li>
+        <li>Offers more customization options compared to html2canvas..</li>
+        <li>Supports external stylesheets and fonts.</li>
+      </ul>
+    </div>
+
+    <!-- dom-to-image-more example -->
+    <div id="capture2">Capture this content.</div>
+    <button id="captureButton2">Capture</button>
+
+    <!-- JS link -->
+    <script src="/main.js"></script>
+  </body>
+</html>

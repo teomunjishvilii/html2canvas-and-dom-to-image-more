@@ -1,0 +1,30 @@
+.intro {
+  margin-bottom: 30px;
+}
+
+ul li {
+  line-height: 25px;
+}
+
+.intro h2 {
+  font-size: 40px;
+}
+
+/* html2canvas example */
+#capture {
+  width: 200px;
+  height: 200px;
+  background: #f0f0f0;
+}
+
+#captureButton,
+#captureButton2 {
+  margin-top: 10px;
+}
+
+/* dom-to-image-more example */
+#capture2 {
+  width: 200px;
+  height: 200px;
+  background: #f0f0f0;
+}
